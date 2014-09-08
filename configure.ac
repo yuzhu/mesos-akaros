@@ -218,6 +218,9 @@ case "${target_os}" in
   darwin*)
     OS_NAME=darwin
     ;;
+  ros*)
+    OS_NAME=ros
+    ;;
   *)
     AC_MSG_ERROR("Mesos is currently unsupported on your platform.")
 esac
