@@ -3,4 +3,4 @@ sudo apt-get install libsasl2-dev
 
 mkdir build
 cd build
-../configure --target=x86_64-ros --disable-java
+../configure --target=x86_64-ros --disable-java --disable-python
